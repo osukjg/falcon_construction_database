@@ -1,0 +1,11 @@
+import React from 'react';
+
+function AddCustomerPage(){
+    return(
+        <body>
+            <h1>Add a Customer Page</h1>
+        </body>
+    );
+}
+
+export default AddCustomerPage;
