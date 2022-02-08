@@ -7,9 +7,8 @@ function HomePage() {
             <h1>Welcome to the Falcon Construction Database!</h1>
             <p><a href="http://localhost:3000/add-customer">Add a New Customer</a></p>
             <p><a href="http://localhost:3000/create-job">Create a New Job</a></p>
-            <p><a href="http://localhost:3000/search-jobs">Search for a Job</a></p>
             <p><a href="http://localhost:3000/add-employee">Add a new Employee</a></p>
-            <p><a href="http://localhost:3000/search-employees">Search for Employees</a></p>
+            <p><a href="http://localhost:3000/add-items">Add Items for a Job</a></p>
         </body>
     );
 }
