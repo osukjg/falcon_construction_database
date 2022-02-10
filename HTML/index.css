@@ -1,0 +1,54 @@
+.card{
+    margin-bottom: 15px;
+}
+
+.container {
+    padding: 2rem 0rem;
+  }
+  
+  h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  
+
+.container-sm{
+  margin: auto;
+  width: 25%;
+  border: 1px solid black;
+  padding: 10px;
+  }  
+
+  .button-container{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+    } 
+    
+  .container-button1{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    }  
+  
+.form1{
+  margin: auto;
+  width: 25%;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: gray;
+  color: white;
+}
+
+
+
+.row{
+  margin-bottom: 20px;
+
+}

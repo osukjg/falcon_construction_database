@@ -1,0 +1,175 @@
+<!-- Need to use NVM 10.18.0-->
+
+<head>
+  <meta charset="UTF-8">
+  <title> Falcon Construction Database Page </title>
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap 5.1.3 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Falcon Construction DB</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav Bar Options -->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="employees.html">Employees</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="customers.html">Customers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="jobs.html">Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="categories.html">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="items.html">Items<span class="sr-only">(current)</span></a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Editable table -->
+  <div class="card">
+    <h3 class="card-header text-center font-weight-bold text-uppercase py-4">
+      Draft of Items Table
+    </h3>
+    <div class="card-body">
+      <div id="table" class="table-editable">
+        <span class="table-add float-right mb-3 mr-2"><a href="#!" class="text-success"><i class="fas fa-plus fa-2x"
+              aria-hidden="true"></i></a></span>
+        <table class="table table-bordered table-responsive-md table-striped text-center">
+          <thead>
+            <tr>
+              <th class="text-center">Item ID</th>
+              <th class="text-center">Item Name</th>
+              <th class="text-center">Item Description</th>
+              <th class="text-center">Item Cost Per Unit</th>
+              <th class="text-center">Update</th>
+              <th class="text-center">Remove</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="pt-3-half" contenteditable="true">100</td>
+              <td class="pt-3-half" contenteditable="true">Road Build - 1 lane</td>
+              <td class="pt-3-half" contenteditable="true">Cost for constructing a new 1-lane road - per foot</td>
+              <td class="pt-3-half" contenteditable="true">$175</td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-dark btn-sm my-0">
+                    Update
+                  </button></span>
+              </td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                    Remove
+                  </button></span>
+              </td>
+            </tr>
+            <!-- clonable table line -->
+            <tr>
+              <td class="pt-3-half" contenteditable="true">102</td>
+              <td class="pt-3-half" contenteditable="true">Modular SF Home - 4/2</td>
+              <td class="pt-3-half" contenteditable="true">Flat cost of modular single family home of 4bed 2 bath</td>
+              <td class="pt-3-half" contenteditable="true">$575,000</td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-dark btn-sm my-0">
+                    Update
+                  </button></span>
+              </td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                    Remove
+                  </button></span>
+              </td>
+            </tr>
+            <!-- Clonable table line -->
+            <tr>
+              <td class="pt-3-half" contenteditable="true">105</td>
+              <td class="pt-3-half" contenteditable="true">Modular SF Home - 4/2</td>
+              <td class="pt-3-half" contenteditable="true">Flat cost of modular single family home of 4bed 2 bath</td>
+              <td class="pt-3-half" contenteditable="true">$575,000</td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-dark btn-sm my-0">
+                    Update
+                  </button></span>
+              </td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                    Remove
+                  </button></span>
+              </td>
+            </tr>
+            <!-- This is our clonable table line -->
+            </tr>
+            <!-- Clonable table line -->
+            <tr>
+              <td class="pt-3-half" contenteditable="true">106</td>
+              <td class="pt-3-half" contenteditable="true">Highway Build</td>
+              <td class="pt-3-half" contenteditable="true">Standard cost for a 4 lane highway by mile</td>
+              <td class="pt-3-half" contenteditable="true">$4,450,000</td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-dark btn-sm my-0">
+                    Update
+                  </button></span>
+              </td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                    Remove
+                  </button></span>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- Editable table -->
+
+  <div class="container-sm">Add Item</div>
+  <form class="form1">
+    <label for="fname">Enter Employee Code</label><br>
+    <input type="text" id="empcode" name="empcode"><br>
+    <label for="lname">Enter First name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Enter Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="lname">Enter Job Title:</label><br>
+    <input type="text" id="title" name="title"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  </div>
+
+  <footer>
+    <p>Authors: Lauren Ruff and Kiara Gomez<br>
+    <p>Class: Intro to Databases CS 340<br>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+<!-- Need to use NVM 10.18.0-->
+
+<head>
+  <meta charset="UTF-8">
+  <title> Falcon Construction Database Page </title>
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap 5.1.3 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Falcon Construction DB</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav Bar Options -->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="job_employees.html">Jobs and Employees</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="customers.html">Customers<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="job_items.html">Jobs and Items</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="categories.html">Categories</a>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Editable table -->
+  <div class="card">
+    <h3 class="card-header text-center font-weight-bold text-uppercase py-4">
+      Draft of Customers Table
+    </h3>
+    <div class="card-body">
+      <div id="table" class="table-editable">
+        <span class="table-add float-right mb-3 mr-2"><a href="#!" class="text-success"><i class="fas fa-plus fa-2x"
+              aria-hidden="true"></i></a></span>
+        <table class="table table-bordered table-responsive-md table-striped text-center">
+          <thead>
+            <tr>
+              <th class="text-center">Customer ID</th>
+              <th class="text-center">First Name</th>
+              <th class="text-center">Last Name</th>
+              <th class="text-center">Email</th>
+              <th class="text-center">Phone</th>
+              <th class="text-center">Address</th>
+              <th class="text-center">City</th>
+              <th class="text-center">State</th>
+              <th class="text-center">Zip Code</th>
+              <th class="text-center">Company</th>
+              <th class="text-center">Update</th>
+              <th class="text-center">Remove</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="pt-3-half" contenteditable="true">1</td>
+              <td class="pt-3-half" contenteditable="true">Laila</td>
+              <td class="pt-3-half" contenteditable="true">Robertson</td>
+              <td class="pt-3-half" contenteditable="true">lailarobertson@gmail.com</td>
+              <td class="pt-3-half" contenteditable="true">(581) 982-7934</td>
+              <td class="pt-3-half" contenteditable="true">11 Brook St.</td>
+              <td class="pt-3-half" contenteditable="true">Hope Mills</td>
+              <td class="pt-3-half" contenteditable="true">NC</td>
+              <td class="pt-3-half" contenteditable="true">28348</td>
+              <td class="pt-3-half" contenteditable="true">Green-Lowe</td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-dark btn-sm my-0">
+                  Update
+                  </button></span>
+              </td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                    Remove
+                  </button></span>
+              </td>
+            </tr>
+            <!-- clonable table line -->
+            <tr>
+              <td class="pt-3-half" contenteditable="true">5</td>
+              <td class="pt-3-half" contenteditable="true">Ishaan</td>
+              <td class="pt-3-half" contenteditable="true">Perkins</td>
+              <td class="pt-3-half" contenteditable="true">ishaanperkins@gmail.com</td>
+              <td class="pt-3-half" contenteditable="true">(817) 437-7014</td>
+              <td class="pt-3-half" contenteditable="true">21 Rock Creek Street</td>
+              <td class="pt-3-half" contenteditable="true">El Dorado</td>
+              <td class="pt-3-half" contenteditable="true">AR</td>
+              <td class="pt-3-half" contenteditable="true">71730</td>
+              <td class="pt-3-half" contenteditable="true">Lind LLC</td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-dark btn-sm my-0">
+                  Update
+                  </button></span>
+              </td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                    Remove
+                  </button></span>
+              </td>
+            </tr>
+            <!-- Clonable table line -->
+            <tr>
+              <td class="pt-3-half" contenteditable="true">6</td>
+              <td class="pt-3-half" contenteditable="true">Lorena</td>
+              <td class="pt-3-half" contenteditable="true">Roy</td>
+              <td class="pt-3-half" contenteditable="true">lroy@gmail.com</td>
+              <td class="pt-3-half" contenteditable="true">(817) 437-7014</td>
+              <td class="pt-3-half" contenteditable="true">3 Rockwell Ave</td>
+              <td class="pt-3-half" contenteditable="true">Royal Oak</td>
+              <td class="pt-3-half" contenteditable="true">MI</td>
+              <td class="pt-3-half" contenteditable="true">48067</td>
+              <td class="pt-3-half" contenteditable="true">Turcotte, Murray and Hayes</td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-dark btn-sm my-0">
+                  Update
+                  </button></span>
+              </td>
+              <td>
+
+                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                    Remove
+                  </button></span>
+              </td>
+            </tr>
+            <!-- This is our clonable table line -->
+          </tr>
+          <!-- Clonable table line -->
+          <tr>
+            <td class="pt-3-half" contenteditable="true">8</td>
+            <td class="pt-3-half" contenteditable="true">Carsen</td>
+            <td class="pt-3-half" contenteditable="true">Lowe</td>
+            <td class="pt-3-half" contenteditable="true">clowe@gmail.com</td>
+            <td class="pt-3-half" contenteditable="true">(432) 613-7627</td>
+            <td class="pt-3-half" contenteditable="true">36 N. Deerfield Ave.</td>
+            <td class="pt-3-half" contenteditable="true">Bethel Park</td>
+            <td class="pt-3-half" contenteditable="true">PA</td>
+            <td class="pt-3-half" contenteditable="true">15102</td>
+            <td class="pt-3-half" contenteditable="true">Kohler, Goldner and Schaden</td>
+            <td>
+              <span class="table-remove"><button type="button" class="btn btn-dark btn-sm my-0">
+                  Update
+                </button></span>
+            </td>
+            <td>
+
+              <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">
+                  Remove
+                </button></span>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- Editable table -->
+
+  <div class="container-sm">Add Customer</div>
+  <form class="form1">
+    <label for="lname">Enter First name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Enter Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="lname">Enter Email:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="lname">Enter Phone Number:</label><br>
+    <input type="text" id="phone" name="phone"><br><br>
+    <label for="lname">Enter Address:</label><br>
+    <input type="text" id="address" name="address"><br><br>
+    <label for="lname">Enter City:</label><br>
+    <input type="text" id="city" name="city"><br><br>
+    <label for="lname">Enter Zip Code:</label><br>
+    <input type="text" id="zipc" name="zipc"><br><br>
+    <label for="lname">Enter Company Name:</label><br>
+    <input type="text" id="companyn" name="companyn"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  </div>
+
+  <footer>
+    <p>Authors: Lauren Ruff and Kiara Gomez<br>
+    <p>Class: Intro to Databases CS 340<br>
+  </footer>
+
+</body>
+
+</html>
